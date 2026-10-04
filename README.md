@@ -9,6 +9,7 @@ Quick heads up.
 
 #### What Unlocking Bootloader Means
 * Bootloader acts like a security lock on your phone preventing it from being easily tampered with if stolen (for example thief could flash custom modified version of your current OS but with info-stealers injected)
+* Keep in mind that you can only unlock 1 device with same verified account per year. So if you have multiple Xiaomi devices choose wisely 
 * Some apps like banks, online games & streaming services may refuse to work due to flagging device as untrustworthy
 * Warranty and safety features may be not be valid anymore depending on your region
 
