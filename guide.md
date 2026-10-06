@@ -66,6 +66,8 @@ Log back into your Xiaomi account in Settings and Xiaomi Community account in th
 
 This may take a while and could get *really annoying*, ***really*** *fast*. But you should be certainly able to get it after 2 days, 1 week or a month with solid persistence and determination.
 
+![Alt text](images/yay_beat_eyren.png)
+
 # Unlocking Bootloader
 ## Reducing Possibility of Soft-Bricking
 * **Disable FRP** (Factory Reset Protection). It's is enabled automatically when you create or log into Google account on the phone. What it does is if someone tries to factory reset your phone (which happens in process of unlocking bootloader) FRP will trigger after the action and tell you to choose your Wi-Fi before asking to log into your Google account that was on device previously, to prove that this is you.
@@ -83,7 +85,11 @@ This may take a while and could get *really annoying*, ***really*** *fast*. But 
 Congratulations! The agonizing part is finally over. Now we just have to deal with their agonizingly buggy tool.
 
 You can download **Mi Unlock Tool from their** [official page](https://en.miui.com/unlock/download_en.html). But it will give you **older, buggy version** that will almost certainly not display log in screen for you. It will remind you to download an update though, but upon pressing download it will throw you into web page that is... privated.
-So we're gonna have to **instead download it from** [Uptodown](https://mi-unlock.en.uptodown.com/windows). (as far as I can tell this is official upload of the tool from Xiaomi due to signature not being modified) But before opening if you extracted zip of old Mi Unlock tool **delete it's extracted files** and terminate all instances of old Mi Unlock Tool in Task Manager Because they can conflict with each other.
+So we're gonna have to **instead download it from** [Uptodown](https://mi-unlock.en.uptodown.com/windows). (as far as I can tell this is official upload of the tool from Xiaomi due to signature not being modified)
+
+![mi_unlock_tool_signature](images/signature.png)
+
+But before opening if you extracted zip of old Mi Unlock tool **delete it's extracted files** and terminate all instances of old Mi Unlock Tool in Task Manager Because they can conflict with each other.
 
 After you will actually be able to properly open the tool, it will meet you with log in screen where you will need to enter Xiaomi account information and phone number where they will send SMS code to your phone that you will need to write in box. It may charge money from your mobile data first time due to phone sending outgoing encrypted SMS from your device to Xiaomi's servers to test integrity of your SIM card, or it might send security code to your WhatsApp if you have your phone number tied to it (this is proven to be official feature but most services don't do this, so be sure to check WhatsApp if you can't find code)
 Then it will let you use the tool. To unlock the phone
@@ -112,10 +118,18 @@ Basically **do not switch anything related to unlocking bootloader, or the timer
 
 After time is up it will let you unlock your phone. Open Mi Unlock Tool, do what it asks and connect your phone to it in Fastboot mode as previously discussed and press Unlock button, agree to warnings and after it's done it will say "Unlocked successfully" press Reboot button.
 And now phone will factory reset and re-download stock OS. After that it will still bother you with FRP but through you Xiaomi account.
+
+![xiaomi_account_frp_photo](images/xiaomi_account_frp.png)
+
 So Choose "Activate this device" and write your Xiaomi account password and verify that it's you through email connected to the account.
 Continue through installation of stock OS as normal, disable tracking features just to be safe in "Basic Settings" step and "Google" which after you get your clear device with unlocked bootloader!
 
 To confirm this tap on Settings > About phone and tap on OS version 7 times to unlock Developer Mode again. Then head back to main Settings menu and write in Search bar "Mi Unlock status" and press on it, it should say "The device is unlocked".
+
+![unlocked_xiaomi_bootloader_photo](images/xiaomi_bootloader_unlocked.png)
+(I lost my photo of this screen so I put here similar badly photoshoped one) <br>
+
 For further modifications write in search bar "USB debugging" and enable it if you are planning to flash custom OS (like LineageOS). Also don't forget to sign out of your Xiaomi account whne flashing new OS to not cause FRP that could soft brick your device.
 
+![Alt text](images/yay_beat_xiaomi.png)
 Enjoy your digital freedom in pocket
