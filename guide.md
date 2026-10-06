@@ -89,7 +89,7 @@ Then it will let you use the tool. To unlock the phone
   (if your phone does not connect in fastboot mode, try using USB 2.0) <br>
 
 Which after Unlock button should be lit up. When pressing it will give you warnings that you should be already aware of, and after you confirm your choice it will make you wait for 72 hours (3 days) if you have HyperOS, or 168 hours (1 week) if you have MIUI before you can actually unlock your phone. What wait time is determined from is not confirmed, but is a community observation. In my case I have HyperOS and got 72 hours.
-(while you wait I recommend setting up timer on PC or phone itself with same amount of hours plus 30 minutes to know when you can unlock the device for sure)
+while you wait I recommend setting up timer on PC or phone itself with same amount of hours plus 30 minutes to know when you can unlock the device for sure.
 
 Timer works completely on side of Xiaomi's servers so you can safely close the software, unplug the phone, and hold volume down with power down button until phone boots back in system.
 
@@ -104,4 +104,14 @@ Timer works completely on side of Xiaomi's servers so you can safely close the s
 > Do not turn off Xiaomi Cloud (if you turned it on) <br>
 > Do not change your region
 
-Basically **do not switch anything related to unlocking bootloader, or the timer will reset**. Otherwise you can use your phone as usual while you wait.
+Basically **do not switch anything related to unlocking bootloader, or the timer will reset**. Otherwise you can use your phone as usual while you wait. If you forgot to set your timer 
+
+After time is up it will let you unlock your phone. Open Mi Unlock Tool, do what it asks and connect your phone to it in Fastboot mode as previously discussed and press Unlock button, agree to warnings and after it's done it will say "Unlocked successfully" press Reboot button.
+And now phone will factory reset and re-download stock OS. After that it will still bother you with FRP but through you Xiaomi account.
+So Choose "Activate this device" and write your Xiaomi account password and verify that it's you through email connected to the account.
+Continue through installation of stock OS as normal, disable tracking features just to be safe in "Basic Settings" step and "Google" which after you get your clear device with unlocked bootloader!
+
+To confirm this tap on Settings > About phone and tap on OS version 7 times to unlock Developer Mode again. Then head back to main Settings menu and write in Search bar "Mi Unlock status" and press on it, it should say "The device is unlocked".
+For further modifications write in search bar "USB debugging" and enable it if you are planning to flash custom OS (like LineageOS). Also don't forget to sign out of your Xiaomi account whne flashing new OS to not cause FRP that could soft brick your device.
+
+Enjoy your digital freedom in pocket
