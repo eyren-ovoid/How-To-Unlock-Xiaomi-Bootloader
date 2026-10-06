@@ -1,6 +1,10 @@
 Unlocking bootloader on Xiaomi devices is unreasonably hard. But I managed to unlock Redmi12C in 2 days, I am gonna explain how I did it so you don't have to play this guessing game.
 
 # Accounts Creation
+> [!CAUTION]
+> Before you even start creating account, **please save your log in information somewhere for Xiaomi account** (cleanly on paper, or in password manager like Bitwarden). <br>
+> **Be SURE you do not forget account log in info** or your device could get soft-bricked due to FRP after factory reset or losing verified 30 day account because you had to log out and log in again in one of the steps. <br>
+
 Go to **Settings > Xiaomi Account** and sign up. You cannot choose global region here, but I recommend to put **United States** (though choosing Russia didn't make much difference for me)
 
 After this open **Xiaomi Community app** and when it asks you how you want to sign in choose **"Another Account"** and **log into your Xiaomi Account**.
